@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Main3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/parangtritis"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:background="#5F9EA0"
+            android:paddingBottom="16dp"
+            android:text="\nPantai Parangtritis"
+            android:textColor="#e8e9e9" />
+
+        <Button
+            android:id="@+id/indrayanti"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="7dp"
+            android:background="#5F9EA0"
+            android:paddingBottom="16dp"
+            android:text="\nPantai Indrayanti"
+            android:textColor="#e8e9e9" />
+
+        <Button
+            android:id="@+id/glagah"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="7dp"
+            android:background="#5F9EA0"
+            android:paddingBottom="16dp"
+            android:text="\nPantai Glagah"
+            android:textColor="#e8e9e9" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
